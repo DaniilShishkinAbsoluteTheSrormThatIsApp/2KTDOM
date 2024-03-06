@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #kittens-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .kitten-card {
+    width: 300px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kitten-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .kitten-info {
+    padding: 10px;
+  }
+  
+  .kitten-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .kitten-description {
+    margin-top: 10px;
+  }
+  
+  .kitten-fav {
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
